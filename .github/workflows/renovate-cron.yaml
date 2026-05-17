@@ -9,5 +9,5 @@ permissions: {}
 
 jobs:
   renovate:
-    uses: ./.github/workflows/renovate.yaml
+    uses: msdeleyto/gh-actions/.github/workflows/renovate.yaml@main
     secrets: inherit
