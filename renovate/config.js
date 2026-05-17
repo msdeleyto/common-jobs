@@ -3,7 +3,10 @@ module.exports = {
   packageRules: [
     {
       matchManagers: ["github-actions"],
-      matchPackageNames: ["msdeleyto/gh-actions/**"],
+      matchPackageNames: [
+        "msdeleyto/gh-actions/.github/actions/publish-docker-image",
+        "msdeleyto/gh-actions/.github/workflows/renovate.yaml",
+      ],
       pinDigests: false,
     },
   ],
