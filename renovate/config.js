@@ -3,7 +3,7 @@ module.exports = {
   packageRules: [
     {
       matchManagers: ["github-actions"],
-      matchPackageNames: ["msdeleyto/gh-actions"],
+      matchPackageNames: ["msdeleyto/gh-actions/**"],
       pinDigests: false,
     },
   ],
