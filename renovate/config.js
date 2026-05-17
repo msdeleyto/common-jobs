@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["helpers:pinGitHubActionDigests"],
+  extends: ["config:best-practices"], // https://docs.renovatebot.com/presets-config/#configbest-practices
   packageRules: [
     {
       matchManagers: ["github-actions"],
