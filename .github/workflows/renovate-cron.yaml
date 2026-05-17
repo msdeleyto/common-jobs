@@ -1,0 +1,13 @@
+name: Renovate cronjob
+
+on:
+  schedule:
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  renovate:
+    uses: ./.github/workflows/renovate.yaml
+    secrets: inherit
